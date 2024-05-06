@@ -1,0 +1,88 @@
+body
+{
+    background-color: #dbd7d7;
+}        
+img
+{
+    width: 90cm;
+    height: 9cm;
+    width: 99%;
+}
+.centered 
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.row1
+{
+    display: flex;
+    margin-top: 5%;
+}
+.row2
+{
+    display: flex;
+}
+h3
+{
+    color: #000;
+    text-align: center;
+}
+p
+{
+    color: #000;
+    text-align: center;
+}
+
+h1
+{
+    background-color: #EDD79F;
+    text-align: center;
+    font-size: 60px;
+}
+a
+{
+    color: #000;
+    text-decoration: none;
+}
+.Women
+{
+    font-size: 30px;
+}
+*
+{
+    text-decoration: none;   
+}
+.navigate
+{
+    background-color: #EDD79F;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding: 10px;
+}
+.none
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo a
+{
+    font-size: 35px;
+    font-weight: 600;
+    color: black;
+}
+li
+{
+    list-style: none;
+    display: inline-block;
+}
+li a
+{
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 25px;
+    color: black;
+}

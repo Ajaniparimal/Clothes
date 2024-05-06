@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgba(0, 0, 0, 0.5) url('images/image.png') center center fixed;
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center;
+}
+.logo h3{
+    width: 150px;
+    font-size: 30px;
+    cursor: pointer;
+    color: #EDD79F;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+header nav{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+header nav .logo{
+    width: 150px;
+}
+
+a{
+    padding-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+header nav .image{
+    height: 60px;
+    width: 20%;
+}
+
+.content{
+    margin-top: 100px;
+    margin-left: 100px;
+    color: black;
+}
+
+.content h2{
+    font-size: 40px;
+}
+
+.form{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 18%;
+    left: 65%;
+    background: rgb(32, 31, 31);
+}
+
+.form ::placeholder{
+    color: #fff;
+}
+
+.box input{
+    width: 75%;
+    margin: 10px;
+    margin-top: 18px;
+    margin-left: 21px;
+    padding: 13px 18px;
+    background: transparent;
+    border-bottom: 1px solid #EDD79F
+}
+
+.link{
+    width: 75%;
+    text-align: center;
+    background-color: #EDD79F;
+    margin-top: 10px;
+    margin-left: 23px;
+    padding: 11px;
+    border-radius: 7px;
+}
+
+.link a{
+    text-decoration: none;
+    color: #000;
+}
+
+.link1{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.link1 a{
+    text-decoration: none;
+    color: #EDD79F;
+    font-size: 15px;
+}
+
+.link2{
+    width: 50%;
+    margin: 23%;
+    text-align: center;
+    margin-top: 40px;
+    background-color: #EDD79F;
+    padding: 10px;
+    border-radius: 7px;
+}
+*
+{
+    text-decoration: none;   
+}
+.navigate
+{
+    background-color: #EDD79F;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding: 10px;
+}
+.none
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo a
+{
+    font-size: 35px;
+    font-weight: 600;
+    color: black;
+}
+li
+{
+    list-style: none;
+    display: inline-block;
+}
+li a
+{
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 25px;
+    color: black;
+}
